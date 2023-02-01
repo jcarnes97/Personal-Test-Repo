@@ -1,1 +1,1 @@
-# This is the sharing and testingof code files between MacOS, Ubuntu, and Windows
+# This is the sharing and testing of code files between MacOS, Ubuntu, and Windows
