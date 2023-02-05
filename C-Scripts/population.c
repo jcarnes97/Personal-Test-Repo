@@ -18,7 +18,6 @@ int years;
 //Do While Promt Loop for Amount Of Years
   do
   {
-      printf("\n");
       years = get_int("Type Amount of Years and Press the Enter Key: ");
   }
   while (years < 0);
