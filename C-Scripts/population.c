@@ -11,7 +11,7 @@ int main() {
     do{
     printf("Enter the end population: ");
     scanf("%d", &end_population);
-    }while (end_population <= start_population);
+    } while (end_population <= start_population);
 
     int n = start_population;
     while (n < end_population) {
