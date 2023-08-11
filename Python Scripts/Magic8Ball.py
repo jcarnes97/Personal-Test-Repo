@@ -3,7 +3,7 @@ import random
 #input('Your question: ')
 name = 'Jordan'
 question = 'Are you hungery?'
-answer = ''
+answer = ""
 random_number = random.randint(1, 9)
 #print(random_number)
 if random_number == 1:
@@ -26,5 +26,5 @@ elif random_number == 9:
   answer = "Very doubtful"
 else:
   answer = "Error"
-print(name, "asks:", question)
-print("Magic 8 Balls Answer:" + answer)
+print(name + "asks: " + question)
+print("Magic 8 Balls Answer: " + answer)
