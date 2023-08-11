@@ -17,7 +17,7 @@ elif random_number == 4:
 elif random_number == 5:
   answer = "Ask again later"
 elif random_number == 6:
-  anser = "Better not tell you now"
+  answer = "Better not tell you now"
 elif random_number == 7:
   answer = "My sources says no"
 elif random_number == 8:
