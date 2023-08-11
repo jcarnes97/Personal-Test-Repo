@@ -26,5 +26,5 @@ elif random_number == 9:
   answer = "Very doubtful"
 else:
   answer = "Error"
-print(name + "asks: " + question)
+print(name + " asks: " + question)
 print("Magic 8 Balls Answer: " + answer)
