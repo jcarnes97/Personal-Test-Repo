@@ -5,19 +5,18 @@ make_a_month = 2100
 #Declaring the total variable
 total_expenditure_per_month = 0
 #Subscriptions per month.
-amazon_music = 0
-discord_nitro = 0 #101 yearly or 8.42 monthly
-gym = 0
-icloud_storage = .99
-audible = 18.10
-nordvpn = 6.9525
-macrofactor = 5.99
+discord_nitro = 2.70 #101 yearly or 8.42 monthly
+bjj = 175
+icloud_storage = 3.00
+audible = 8.50
+nordvpn = 3.45
+moviebox = 2.30
 #Expenses per month
-food = 300
-car_insurance = 150
+food = 600
+car_insurance = 198.59
 gas = 60
 #Adding monthly expenses
-total_expenditure_per_month += amazon_music + discord_nitro + gym + icloud_storage + audible + nordvpn + macrofactor + food + car_insurance + gas
+total_expenditure_per_month += discord_nitro + bjj + icloud_storage + audible + nordvpn + moviebox + food + car_insurance + gas
 #Adding Tax
 expenditure_with_tax = total_expenditure_per_month * tax
 total_expenditure_per_month += expenditure_with_tax
