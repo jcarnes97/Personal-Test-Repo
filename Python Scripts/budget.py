@@ -11,15 +11,21 @@ icloud_storage = 3.00
 audible = 8.50
 nordvpn = 3.45
 moviebox = 2.30
+subscriptions = discord_nitro + bjj + icloud_storage + audible + nordvpn + moviebox
 #Expenses per month
-food = 600
+food = 300
 car_insurance = 198.59
 gas = 60
 #Adding monthly expenses
-total_expenditure_per_month += discord_nitro + bjj + icloud_storage + audible + nordvpn + moviebox + food + car_insurance + gas
+total_expenditure_per_month += subscriptions + food + car_insurance + gas
 #Adding Tax
 expenditure_with_tax = total_expenditure_per_month * tax
 total_expenditure_per_month += expenditure_with_tax
 #calculating total monthly spent
 expenditure = total_expenditure_per_month
-print('How much I make: ', make_a_month,'Saving: ', make_a_month - expenditure,'Spending: ', expenditure)
+#printing how much i made that month starting with october 2024, my spending and how much I should have savedf
+print('How much I make:', make_a_month,'Spending:', expenditure,'Saving:', make_a_month - expenditure)
+#Declaring new variables for weekley expenditure
+food_spent = 48
+car_insurance_spent = 198.59
+print('how much money left for food:', food - food_spent, 'how much money left for car insurace:', car_insurance - car_insurance_spent, )
