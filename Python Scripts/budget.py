@@ -6,18 +6,20 @@ make_a_month = 2100
 total_expenditure_per_month = 0
 #Subscriptions per month.
 discord_nitro = 2.70 #101 yearly or 8.42 monthly
+xbox_gamepass = 21.50
 bjj = 175
 icloud_storage = 3.00
 audible = 8.50
 nordvpn = 3.45
 moviebox = 2.30
-subscriptions = discord_nitro + bjj + icloud_storage + audible + nordvpn + moviebox
+subscriptions = discord_nitro + bjj + icloud_storage + audible + nordvpn + moviebox + xbox_gamepass
 #Expenses per month
+rent_included_utilities = 800
 food = 300
 car_insurance = 198.59
 gas = 60
 #Adding monthly expenses
-total_expenditure_per_month += subscriptions + food + car_insurance + gas
+total_expenditure_per_month += subscriptions + food + car_insurance + gas + rent_included_utilities
 #Adding Tax
 expenditure_with_tax = total_expenditure_per_month * tax
 total_expenditure_per_month += expenditure_with_tax

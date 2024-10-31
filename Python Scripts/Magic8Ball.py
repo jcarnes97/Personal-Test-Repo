@@ -2,7 +2,7 @@ import random
 #input('Your name: ')
 #input('Your question: ')
 name = 'Jordan'
-question = 'Are you hungery?'
+question = 'am i gay?'
 answer = ""
 random_number = random.randint(1, 9)
 #print(random_number)
