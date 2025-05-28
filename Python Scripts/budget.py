@@ -14,6 +14,7 @@ fitness_connection = 32.00
 spotify = 12.98
 music = 700
 ableton = 51
+
 #Adding subscriptions
 subscriptions = icloud_storage + moviebox + music + fitness_connection + spotify + ableton
 
