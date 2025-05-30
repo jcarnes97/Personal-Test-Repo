@@ -1,6 +1,6 @@
 #Texas State Tax
 tax = float(.0625)
-#
+
 #How much I make a month
 make_a_month = 2400
 
@@ -12,22 +12,22 @@ icloud_storage = 3.00
 moviebox = 2.30
 fitness_connection = 32.00
 spotify = 12.98
-music = 700
-ableton = 51
+#music = 626
 
 #Adding subscriptions
-subscriptions = icloud_storage + moviebox + music + fitness_connection + spotify + ableton
+subscriptions = icloud_storage + moviebox + fitness_connection + spotify
 
 #Expenses per month
 rent_included_utilities = 1000.00
 renters_insurance = 16.42
-food = 300
-car_insurance = 138.77
-gas = 70
+food = 350
+car_insurance = 176
+gas = 140
 internet = 65.60
+electric = 120
 
 #Adding monthly expenses
-total_expenditure_per_month += subscriptions + rent_included_utilities + renters_insurance + food + car_insurance + gas + internet
+total_expenditure_per_month += subscriptions + rent_included_utilities + renters_insurance + food + car_insurance + gas + internet + electric
 
 #calculating total monthly spent
 expenditure = total_expenditure_per_month
