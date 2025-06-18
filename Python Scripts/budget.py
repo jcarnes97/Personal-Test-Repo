@@ -12,7 +12,7 @@ icloud_storage = 3.00
 moviebox = 2.30
 fitness_connection = 32.00
 spotify = 12.98
-#music = 626
+#music = 450
 
 #Adding subscriptions
 subscriptions = icloud_storage + moviebox + fitness_connection + spotify
@@ -22,9 +22,9 @@ rent_included_utilities = 1000.00
 renters_insurance = 16.42
 food = 350
 car_insurance = 176
-gas = 140
+gas = 100
 internet = 65.60
-electric = 120
+electric = 130
 
 #Adding monthly expenses
 total_expenditure_per_month += subscriptions + rent_included_utilities + renters_insurance + food + car_insurance + gas + internet + electric
