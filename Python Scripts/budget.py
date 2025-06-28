@@ -8,26 +8,27 @@ make_a_month = 2400
 total_expenditure_per_month = 0
 
 #Subscriptions per month.
-icloud_storage = 3.00
+icloud_storage = 1.15
 moviebox = 2.30
-fitness_connection = 32.00
+fitness_connection = 40
 spotify = 12.98
-#music = 450
+#music = 500
 
 #Adding subscriptions
 subscriptions = icloud_storage + moviebox + fitness_connection + spotify
 
 #Expenses per month
-rent_included_utilities = 1000.00
+rent_included_utilities = 1150.00
 renters_insurance = 16.42
 food = 350
-car_insurance = 176
-gas = 100
+car_insurance = 120
+gas = 80
 internet = 65.60
-electric = 130
+electric = 140
+haircut = 65
 
 #Adding monthly expenses
-total_expenditure_per_month += subscriptions + rent_included_utilities + renters_insurance + food + car_insurance + gas + internet + electric
+total_expenditure_per_month += subscriptions + rent_included_utilities + renters_insurance + food + car_insurance + gas + internet + electric + haircut
 
 #calculating total monthly spent
 expenditure = total_expenditure_per_month
